@@ -1,15 +1,15 @@
 SELECT merchant,
        category,
 
-       -- Volume Metrics
-       ROUND(SUM(amt) :: numeric, 2) as total_chargeback_usd,
+       -- Volume Metrics (How big is the merchant?)
        COUNT(is_chargeback) as total_transactions,
+       ROUND(SUM(amt) :: numeric, 2) as total_sales_usd,
 
-       -- Risk Metrics
-       SUM(is_fraud) as total_fraud,
+       -- Risk Metrics (How risky is the merchant?)
+       ROUND(SUM(CASE WHEN is_chargeback = 1 THEN amt :: numeric ELSE 0 END), 2) as total_lost_usd,
        SUM(is_chargeback) as total_chargebacks,
 
-       -- Breakdown by Reason Code
+       -- Breakdown by Reason Code (Why is it happening?)
 
        -- 10.4: Fraud - Card Absent
        SUM(CASE WHEN visa_reason_code like '%10.4%' THEN 1 ELSE 0 END) as card_absent_10_4,
