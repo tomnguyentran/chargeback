@@ -1,6 +1,7 @@
 SELECT merchant,
        category,
        TO_CHAR(trans_date_trans_time::DATE, 'YYYY-MM') AS date,
+
        -- Volume Metrics (How big is the merchant?)
        COUNT(is_chargeback) as total_transactions,
        ROUND(SUM(amt) :: numeric, 2) as total_sales_usd,
