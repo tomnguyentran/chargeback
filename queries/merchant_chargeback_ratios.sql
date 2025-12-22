@@ -1,6 +1,6 @@
 SELECT merchant,
        category,
-
+       TO_CHAR(trans_date_trans_time::DATE, 'YYYY-MM') AS date,
        -- Volume Metrics (How big is the merchant?)
        COUNT(is_chargeback) as total_transactions,
        ROUND(SUM(amt) :: numeric, 2) as total_sales_usd,
@@ -21,5 +21,5 @@ SELECT merchant,
        ROUND((SUM(is_chargeback) * 100.0 / COUNT(*)), 3) as chargeback_ratio
 
 FROM chargeback_update
-GROUP BY merchant, category
-ORDER BY chargeback_ratio DESC
+GROUP BY merchant, category, date
+ORDER BY chargeback_ratio DESC;
