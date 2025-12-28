@@ -3,7 +3,7 @@ This project analyzes a dataset from a Fintech company that provides payment pro
 The company's business model generates revenue though transaction fees, but profitability is threatened by fraudulent activities and chargebacks.
 
 in 2019, the company processed about **$65 million** in total transaction volume. The main challenge identified was the significant amount of chargebacks
-where customers dispute their transactions and demand refunds due to fraud or service issues. These disputes resulted in **$2.9 million** in losses and puts the company
+where customers dispute their transactions and demand refunds due to fraud or service issues. These disputes resulted in **$2.9 million** in losses and put the company
 at risk with card networks (Visa/Mastercard), which typically penalize processors that exceed the 1% chargeback ratio.
 
 The goal of this analysis was to evaluate the financial impact of fraud, identify high risk merchants, and recommend strategies to minimize losses using SQL and Tableau.
@@ -13,15 +13,15 @@ Insights and recommendations are provided on the following key areas:
 - **Executive KPI Assessment:** An evaluation of the overall company's overall health, comparing total sales ($65M)
 against total fraud loss ($2.9M) to determine the chargeback ratio (0.79%).
 
-- **Category 2:** 
+- **High Risk Merchant Identification:** 
 - **Category 3:** 
 - **Category 4:** 
 
-The Python code used to ...
+The Python code used to simulate chargeback scenarios and assign Visa reason codes (10.4 and 13.1) can be found here [link].
 
-The SQL queries used to gather the data for the dashboard can be found here [link].
+The SQL queries used to aggregate transaction metrics for the dashboard can be found here [link].
 
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
+An interactive Tableau dashboard used to report and explore fraud trends can be found here [link].
 
 
 
