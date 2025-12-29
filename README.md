@@ -10,18 +10,20 @@ The goal of this analysis was to evaluate the financial impact of fraud, identif
 
 Insights and recommendations are provided on the following key areas:
 
-- **Executive KPI Assessment:** An evaluation of the overall company's overall health, comparing total sales ($65M)
-against total fraud loss ($2.9M) to determine the chargeback ratio (0.79%).
+- **Executive KPI Assessment:** An evaluation of the company's overall health, comparing total sales **($65M)**
+against total fraud loss **($2.9M)** to determine the chargeback ratio **(0.79%)**.
 
-- **High Risk Merchant Identification:** 
-- **Category 3:** 
-- **Category 4:** 
+- **High Risk Merchant Identification:** A comprehensive visualization of all active merchants, using a diverging color palette (Red > 0.8% > Green) to highlight merchants exceeding the safety threshold. 
 
-The Python code used to simulate chargeback scenarios and assign Visa reason codes (10.4 and 13.1) can be found here [link].
+- **Fraud Trends:** A timeline analysis tracking the company's risk performance throughout 2019, revealing the consistent downward trend from **1.15% to 0.65%**.
 
-The SQL queries used to aggregate transaction metrics for the dashboard can be found here [link].
+- **Root Cause Analysis:** A breakdown of risk factors identifying **"Online Shopping"** and **"Card Absent" (10.4)** as the primary drivers of financial loss.
 
-An interactive Tableau dashboard used to report and explore fraud trends can be found here [link].
+The Python code used to simulate chargeback scenarios and assign Visa reason codes (10.4 and 13.1) can be found [here](python_scripts/chargeback.ipynb).
+
+The SQL queries used to aggregate transaction metrics for the dashboard can be found [here](queries/merchant_chargeback_ratios.sql).
+
+A Tableau dashboard used to report and explore fraud trends can be found [here](https://public.tableau.com/app/profile/tom.tran3530/viz/chargeback_dashboard/Dashboard).
 
 
 
