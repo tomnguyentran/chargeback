@@ -110,15 +110,11 @@ This indicates that risk is heavily concentrated in digital transactions rather 
 
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+Based on the insights and findings above, we would recommend the stakeholders to consider the following: 
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
+* "Card Absent" fraud is the primary loss driver (5,220 incidents), concentrated within online merchants.
+  * Recommendation: Implement 3D-Secure technology for all online transactions to verify cardholder identity at checkout and shift liability away from the merchant.
+
+
+* There are quite a few merchants that are exceeding a chargeback ratio of 3.0%, far above the 0.8% safety threshold.
+  * Recommendation: Conduct an immediate audit of the top 20 merchants identified in the dashboard to determine their termination.
