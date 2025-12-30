@@ -63,30 +63,23 @@ Below is the overview page from the Tableau dashboard. The entire dashboard can 
 ![Overview Page](images/chargeback_dashboard.png)
 
 # Insights Deep Dive
-### Category 1:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+### Executive KPI Assessment:
 
-[Visualization specific to category 1]
-
-
-### Category 2:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* The company processed a total of **$65 million** in sales volume while losing **$2.9 million** from chargebacks. 
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
-[Visualization specific to category 2]
+* The overall chargeback ratio is **0.79%**, which is under the critical 1% threshold. However, this is within the **0.8% danger zone**, requiring constant monitoring and improvement.
+
+### High Risk Merchant Identification:
+
+* The "Top Risky Merchants" chart reveals that specific accounts (highlighted in red) have experienced chargebacks ratios exceeding **3.0%**, which is significantly higher than the company average.
+
+
+* As the list descends towards the **0.8%**, the bars shift to gray (Warning Zone) and finally to green (Safe Zone) to instantly distinguish between risky and safe merchants.
+
+[high risk merchants](images/danger_merchants.png)
+
 
 
 ### Category 3:
