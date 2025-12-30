@@ -31,10 +31,10 @@ A Tableau dashboard used to report and explore fraud trends can be found [here](
 
 # Data Dictionary
 
-The analysis is based on a single transaction table containing approximately 1.3M records. 
-The dataset was preprocessed in Python to engineer specific risk features before being imported into SQL.
+The analysis began with a raw dataset containing about 1.3 million transaction records. This data was preprocessed in Python to engineer specific risk features, 
+then aggregated using SQL to generate the final summary table used for the dashboard.
 
-The transaction table contains the following columns:
+The summary table contains the following columns:
 
 | Column Name        | Description                                             | Data Type |
 |--------------------|---------------------------------------------------------|-----------|
