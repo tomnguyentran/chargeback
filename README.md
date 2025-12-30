@@ -104,7 +104,7 @@ Below is the overview page from the Tableau dashboard. The entire dashboard can 
 This indicates that risk is heavily concentrated in digital transactions rather than physical retail or logistics issues
 
 
-![root cause analysis](images/root_cause_image.png)
+![root cause analysis](images/root_cause.png)
 
 
 
