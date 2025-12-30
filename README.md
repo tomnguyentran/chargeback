@@ -12,14 +12,14 @@ The goal of this analysis was to evaluate the financial impact of fraud, identif
 
 Insights and recommendations are provided on the following key areas:
 
-- **Executive KPI Assessment:** An evaluation of the company's overall health, comparing total sales **($65M)**
-against total fraud loss **($2.9M)** to determine the chargeback ratio **(0.79%)**.
+- **Executive KPI Assessment:** An evaluation of the company's overall health, comparing total sales
+against total loss to determine the chargeback ratio.
 
-- **High Risk Merchant Identification:** A comprehensive visualization of all active merchants, using a diverging color palette (Red > 0.8% > Green) to highlight merchants exceeding the safety threshold. 
+- **High Risk Merchant Identification:** A comprehensive visualization of all active merchants, using a diverging color palette to highlight merchants exceeding the safety threshold. 
 
-- **Fraud Trends:** A timeline analysis tracking the company's risk performance throughout 2019, revealing the consistent downward trend from **1.15% to 0.65%**.
+- **Fraud Trends:** A timeline analysis tracking the company's risk performance throughout 2019.
 
-- **Root Cause Analysis:** A breakdown of risk factors identifying **"Online Shopping"** and **"Card Absent" (10.4)** as the primary drivers of financial loss.
+- **Root Cause Analysis:** A breakdown of chargebacks by merchant category and Visa reason code to pinpoint the causes of financial loss.
 
 The Python code used to simulate chargeback scenarios and assign Visa reason codes (10.4 and 13.1) can be found [here](python_scripts/chargeback.ipynb).
 
