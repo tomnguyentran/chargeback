@@ -78,7 +78,9 @@ Below is the overview page from the Tableau dashboard. The entire dashboard can 
 
 * As the list descends towards the **0.8%**, the bars shift to gray (Warning Zone) and finally to green (Safe Zone) to instantly distinguish between risky and safe merchants.
 
-[high risk merchants](images/danger_merchants.png)
+![high risk merchants](images/danger_merchants.png)
+
+![safe merchants](images/safe_merchants.png)
 
 
 
