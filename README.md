@@ -54,11 +54,13 @@ The summary table contains the following columns:
 
 ### Overview of Findings
 
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+The analysis revealed a total financial loss of **$2.9 million** in 2019, primarily due to **"Card Absent"** fraud from **online merchants**.
+The year began with a critical chargeback ratio of **1.15%**, but saw significant improvements throughout the year, dropping to **0.65%** by December.
+This downward trend stabilized the company's overall annual ratio of **0.79%**.
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
+Below is the overview page from the Tableau dashboard. The entire dashboard can be downloaded [here](https://public.tableau.com/app/profile/tom.tran3530/viz/chargeback_dashboard/Dashboard).
 
-
+![Overview Page](images/chargeback_dashboard.png)
 
 # Insights Deep Dive
 ### Category 1:
