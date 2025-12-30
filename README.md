@@ -84,30 +84,27 @@ Below is the overview page from the Tableau dashboard. The entire dashboard can 
 
 
 
-### Category 3:
+### Fraud Trends:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* The company began 2019 in a critical state, with a chargeback ratio of **1.15%** in January.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
-[Visualization specific to category 3]
+* Throughout the year, the performance steadily improved, hitting a low of **0.59%** in June and ending the year at a healthy **0.65%** in December.
+
+![fraud trends](images/fraud_trends.png)
 
 
-### Category 4:
+### Root Cause Analysis:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* The primary cause of loss is **"Card Absent"** fraud (Reason code 10.4), which accounted for **5,220 incidents**. 
+  This volume is more than double the second-highest reason code, "Items Not Received" (2,043 incidents)
 
-[Visualization specific to category 4]
+
+* Online Merchants collectively drove the vast majority of disputes, accounting for nearly 4,000 incidents (led by the "Online Shopping" category with 2,190). 
+This indicates that risk is heavily concentrated in digital transactions rather than physical retail or logistics issues
+
+
+![root cause analysis](images/root_cause_image.png)
 
 
 
