@@ -116,5 +116,5 @@ Based on the insights and findings above, we would recommend the stakeholders to
   * Recommendation: Implement 3D-Secure technology for all online transactions to verify cardholder identity at checkout and shift liability away from the merchant.
 
 
-* There are quite a few merchants that are exceeding a chargeback ratio of 3.0%, far above the 0.8% safety threshold.
-  * Recommendation: Conduct an immediate audit of the top 20 merchants identified in the dashboard to determine their termination.
+* Specific high risk merchants are exceeding a chargeback ratio of 3.0%, far above the 0.8% safety threshold.
+  * Recommendation: Conduct an immediate audit of the top 20 merchants identified in the dashboard to determine if account termination is required.
