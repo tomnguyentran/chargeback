@@ -29,16 +29,25 @@ A Tableau dashboard used to report and explore fraud trends can be found [here](
 
 
 
-# Data Structure & Initial Checks
+# Data Dictionary
 
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
+The analysis is based on a single transaction table containing approximately 1.3M records. 
+The dataset was preprocessed in Python to engineer specific risk features before being imported into SQL.
 
-[Entity Relationship Diagram here]
+The transaction table contains the following columns:
 
+| Column Name        | Description                                             | Data Type |
+|--------------------|---------------------------------------------------------|-----------|
+| merchant           | Name of the merchant                                    | string    |
+| category           | Category of the merchant                                | string    |
+| date               | Transaction date (YYYY-MM format)                       | string    |
+| total_transactions | Total number of transactions                            | int       |
+| total_sales_usd    | Total sales amount in USD                               | float     |
+| total_lost_usd     | Total amount lost to chargebacks in USD                 | float     |
+| total_chargebacks  | Total number of chargebacks                             | int       |
+| card_absent_10_4   | Number of chargebacks with Visa reason code 10.4        | int       |
+| card_absent_13_1   | Number of chargebacks with Visa reason code 13.1        | int       |
+| chargeback_ratio   | Percentage of transactions that resulted in chargebacks | float     |
 
 
 # Executive Summary
