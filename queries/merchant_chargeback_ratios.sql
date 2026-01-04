@@ -1,5 +1,17 @@
+/*
+    GOAL: Create an aggregate summary table for dashboard visualization.
+    LOGIC:
+    1. Group raw transactions by Merchant, Category, and Month.
+    2. Calculate "Volume Metrics" to provide context (Merchant Size).
+    3. Calculate "Risk Metrics" to quantify financial loss and dispute counts.
+    4. Engineer columns for reason codes (10.4 & 13.1).
+    5. Compute the "Chargeback Ratio" KPI for monitoring.
+*/
+
 SELECT merchant,
        category,
+
+       -- Date Formatting (Convert timestamps to Year-Month (YYYY-MM) for trend analysis)
        TO_CHAR(trans_date_trans_time::DATE, 'YYYY-MM') AS date,
 
        -- Volume Metrics (How big is the merchant?)
@@ -19,6 +31,7 @@ SELECT merchant,
        SUM(CASE WHEN visa_reason_code like '%13.1%' THEN 1 ELSE 0 END) as items_not_received_13_1,
 
        -- Main KPI
+       -- Formula: (Total Chargebacks / Total Transactions) * 100
        ROUND((SUM(is_chargeback) * 100.0 / COUNT(*)), 3) as chargeback_ratio
 
 FROM chargeback_update
