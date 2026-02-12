@@ -16,7 +16,7 @@
 * **Repository Structure:** 
   * `/images`: Screenshots used in the portfolio write up.
   * `/output`: Output file from SQL queries.
-  * `/python_scripts`: Python scripts for chargeback simulation.
+  * `/scripts`: Python scripts for chargeback simulation.
   * `/queries`: SQL queries for dashboard.
 
 *For the full storytelling, please visit the link above.*
